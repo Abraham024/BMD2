@@ -1,0 +1,5 @@
+.container{max-width:640px}
+.form-label{color:#e6e9ef}
+.form-control{background:#0f1420;color:#e6e9ef;border-color:#2a344a}
+.form-control:focus{border-color:#3b82f6;box-shadow:none}
+.alert{margin-bottom:12px}

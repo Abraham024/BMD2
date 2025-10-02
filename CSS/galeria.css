@@ -1,0 +1,3 @@
+.card-gallery{ overflow:hidden; border-radius:14px; border:1px solid #202637; background:#121621 }
+.card-gallery img{ display:block; width:100%; aspect-ratio:16/10; object-fit:cover; transition:transform .25s ease }
+.card-gallery:hover img{ transform:scale(1.03) }

@@ -1,0 +1,9 @@
+:root { --bg:#0e1117; --panel:#121621; --text:#e6e9ef; --muted:#9aa4b2; }
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text)}
+.navbar{background:#121621 !important}
+.card{border:1px solid #202637}
+.link-card{text-decoration:none}
+.link-card:hover{transform:translateY(-2px); transition:transform .15s ease}
+footer{border-top:1px solid #202637}
+.hero{background: linear-gradient(135deg,#1b3b72,#6e4bd3);}

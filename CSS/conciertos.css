@@ -1,0 +1,24 @@
+.calendar{ border-collapse: collapse; table-layout: fixed; }
+.calendar th,.calendar td{
+  border:1px solid #202637; text-align:center; padding:8px; height:40px;
+  color:#e6e9ef; background:#121621;
+}
+.calendar th{ background:#0f1420; font-weight:600; }
+.calendar td:empty{ background:transparent; border:none; }
+
+.calendar td.event{
+  background:#1b2a4a; border-color:#2b3b6f; position:relative; cursor:default;
+}
+.calendar td.event::after{
+  content: attr(data-title);
+  position:absolute; left:50%; transform:translateX(-50%);
+  bottom:-28px; white-space:nowrap; font-size:12px;
+  background:#1b2a4a; color:#cfe0ff; padding:2px 8px; border-radius:999px;
+  border:1px solid #2b3b6f;
+}
+
+.list-group-item{ background:#121621; border:1px solid #202637; }
+
+@media (max-width:576px){
+  .calendar th,.calendar td{ padding:6px; height:36px; font-size:14px; }
+}
